@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:gravity="center_horizontal" android:layout_gravity="center_horizontal">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_centerInParent="true"
+		android:layout_alignParentTop="true" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:layout_gravity="center_horizontal">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:background="@drawable/card_border" android:layout_width="fill_parent"
+			android:layout_centerInParent="true" android:layout_alignParentTop="true"
+			android:layout_height="wrap_content" android:gravity="center_horizontal"
+			android:layout_gravity="center_horizontal">
+
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_centerInParent="true" android:layout_alignParentTop="true"
+				android:orientation="vertical" android:layout_height="wrap_content"
+				android:id="@+id/mycard_layout" android:layout_width="fill_parent"
+				android:gravity="center_horizontal" android:layout_gravity="center_horizontal">
+
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<ImageView android:id="@+id/mycard_image"
+						android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+						android:layout_marginBottom="5dip" android:layout_marginTop="5dip"
+						android:layout_width="120dip" android:src="@drawable/defaulticon"
+						android:background="@drawable/image_border" android:layout_height="120dip"></ImageView>
+					<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:orientation="vertical" android:layout_width="fill_parent"
+						android:layout_height="wrap_content">
+						<TextView android:id="@+id/mycard_name"
+							android:textStyle="bold" android:textSize="16sp"
+							android:singleLine="true" android:layout_height="wrap_content"
+							android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+							android:layout_marginTop="7dip" android:layout_width="fill_parent"
+							android:textColor="@color/black">
+						</TextView>
+						<TextView android:id="@+id/mycard_title"
+							android:layout_marginLeft="10dip" android:textColor="@color/black"
+							android:singleLine="true" android:layout_marginRight="10dip"
+							android:layout_width="fill_parent" android:layout_height="wrap_content" />
+						<TextView android:id="@+id/blank_space"
+							android:layout_width="fill_parent" android:layout_height="6dip" />
+						<TextView android:id="@+id/mycard_cellphonenumber"
+							android:textColor="@color/black" android:singleLine="true"
+							android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+							android:layout_marginTop="2dip" android:layout_height="wrap_content"
+							android:layout_width="fill_parent"></TextView>
+
+						<TextView android:id="@+id/mycard_homephonenumber"
+							android:textColor="@color/black" android:singleLine="true"
+							android:layout_marginRight="10dip" android:layout_marginTop="2dip"
+							android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+							android:layout_width="fill_parent"></TextView>
+						<TextView android:id="@+id/mycard_faxnumber"
+							android:textColor="@color/black" android:singleLine="true"
+							android:layout_marginRight="10dip" android:layout_marginTop="2dip"
+							android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+							android:layout_width="fill_parent"></TextView>
+					</LinearLayout>
+				</LinearLayout>
+				<TextView android:id="@+id/mycard_companyname"
+					android:textColor="@color/black" android:layout_marginRight="15dip"
+					android:maxLines="2" android:layout_height="wrap_content"
+					android:layout_marginLeft="10dip" android:layout_width="fill_parent"
+					android:layout_marginTop="2dip" />
+				<TextView android:id="@+id/mycard_note" android:textColor="@color/black"
+					android:layout_marginRight="15dip" android:layout_marginTop="2dip"
+					android:layout_marginLeft="10dip" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:id="@+id/blank_space"
+					android:layout_width="fill_parent" android:layout_height="6dip" />
+				<TextView android:id="@+id/mycard_email" android:textColor="@color/black"
+					android:maxLines="2" android:layout_marginRight="15dip"
+					android:layout_marginTop="2dip" android:layout_marginLeft="10dip"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				<TextView android:id="@+id/mycard_websiteURL"
+					android:textColor="@color/black" android:maxLines="2"
+					android:layout_marginRight="15dip" android:layout_marginTop="2dip"
+					android:layout_marginLeft="10dip" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:id="@+id/mycard_address1"
+					android:textColor="@color/black" android:maxLines="2"
+					android:layout_marginRight="15dip" android:layout_marginTop="2dip"
+					android:layout_marginLeft="10dip" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+
+
+				<TextView android:id="@+id/blank_space"
+					android:layout_width="fill_parent" android:layout_height="10dip" />
+
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_alignParentBottom="true" android:id="@+id/mycard_button_layout"
+		android:weightSum="4" android:layout_width="fill_parent"
+		android:background="#FF006699" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:layout_gravity="center_horizontal">
+		<ImageView android:id="@+id/mycontact_call"
+			android:layout_width="50dp" android:layout_weight="1"
+			android:layout_marginLeft="5dip" android:clickable="true"
+			android:layout_marginRight="5dip" android:layout_marginBottom="5dip"
+			android:layout_marginTop="5dip" android:src="@drawable/contact_call"
+			android:background="@drawable/image_border" android:layout_height="50dip"></ImageView>
+		<ImageView android:id="@+id/mycontact_sms"
+			android:layout_width="50dp" android:clickable="true"
+			android:layout_weight="1" android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip" android:layout_marginBottom="5dip"
+			android:layout_marginTop="5dip" android:src="@drawable/contact_sms"
+			android:background="@drawable/image_border" android:layout_height="50dip"></ImageView>
+		<ImageView android:id="@+id/mycontact_email"
+			android:layout_width="50dp" android:clickable="true"
+			android:layout_weight="1" android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip" android:layout_marginBottom="5dip"
+			android:layout_marginTop="5dip" android:src="@drawable/contact_email"
+			android:background="@drawable/image_border" android:layout_height="50dip"></ImageView>
+		<ImageView android:id="@+id/mycontact_more"
+			android:layout_width="50dp" android:clickable="true"
+			android:layout_weight="1" android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip" android:layout_marginBottom="5dip"
+			android:layout_marginTop="5dip" android:src="@drawable/contact_more"
+			android:background="@drawable/image_border" android:layout_height="50dip"></ImageView>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/change_category"
+		android:background="#24B6FF" android:visibility="gone"
+		android:layout_above="@id/mycard_button_layout" android:weightSum="10"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal|center_vertical"
+		android:layout_gravity="center_horizontal|center_vertical">
+		<Spinner android:id="@+id/spinner_categories"
+			android:layout_marginTop="1dip" android:layout_width="200dip"
+			android:visibility="gone" android:layout_weight="9"
+			android:layout_height="wrap_content" android:prompt="@string/form_category_label" />
+		<Button android:id="@+id/update_confirm" android:text="Save"
+			android:visibility="gone" android:layout_weight="1"
+			android:layout_marginTop="1dip" android:layout_width="wrap_content"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal|center" />
+	</LinearLayout>
+
+
+</RelativeLayout>

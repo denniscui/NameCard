@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ChooseContactBackground">
+		<item name="android:background">#cc9933</item>
+	</style>
+	<style name="Animations" />
+
+	<!-- PopDownMenu -->
+	<style name="Animations.PopDownMenu" />
+
+	<style name="Animations.PopDownMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+	</style>
+
+	<style name="Animations.PopDownMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+	</style>
+
+	<style name="Animations.PopDownMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+	</style>
+
+	<style name="Animations.PopDownMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_top</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+
+	<!-- PopUpMenu -->
+	<style name="Animations.PopUpMenu" />
+
+	<style name="Animations.PopUpMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+
+	<style name="Animations.PopUpMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+	</style>
+
+	<style name="Animations.PopUpMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+	</style>
+
+	<style name="Animations.PopUpMenu.Reflect">
+		<item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/disappear</item>
+	</style>
+	<style name="WindowTitleBackground">
+		<item name="android:background">@color/titlebackgroundcolor</item>
+	</style>
+	<style name="TextAppearance">
+		<item name="android:textColor">?android:textColorPrimary</item>
+		<item name="android:textColorHighlight">#FFFF9200</item>
+		<item name="android:textColorHint">?android:textColorHint</item>
+		<item name="android:textColorLink">#5C5CFF</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="TextAppearance.SearchResult">
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">?android:textColorPrimaryInverse</item>
+		<item name="android:textColorHint">?android:textColorHintInverse</item>
+	</style>
+
+	<style name="TextAppearance.SearchResult.Title">
+		<item name="android:textSize">16sp</item>
+	</style>
+
+	<style name="TextAppearance.SearchResult.Subtitle">
+		<item name="android:textSize">13sp</item>
+		<item name="android:textColor">?android:textColorSecondaryInverse</item>
+	</style>
+
+	<style name="ChatterName">
+		<item name="android:textColor">#ff000000</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="ChatterJoin">
+		<item name="android:textColor">#ff805050</item>
+		<item name="android:textStyle"></item>
+	</style>
+
+</resources>

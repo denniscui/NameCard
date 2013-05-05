@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_centerInParent="true"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:clickable="true" android:focusable="true" android:background="@drawable/action_item_btn">
+	<FrameLayout android:id="@+id/iconborder"
+		android:layout_gravity="center" android:gravity="center"
+		android:layout_width="75dp" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/icon" android:scaleType="fitCenter"
+			android:layout_gravity="center" android:gravity="center"
+			android:layout_width="wrap_content" android:layout_height="40dp" />
+	</FrameLayout>
+	<TextView android:id="@+id/title" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="center_horizontal"
+		android:paddingLeft="5dip" android:paddingRight="10dip"
+		android:shadowColor="#202020" android:shadowDy="2.0" android:shadowDx="2.0"
+		android:shadowRadius="2.5" android:textStyle="bold" android:textColor="#fff0f0f0" />
+</LinearLayout>

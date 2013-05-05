@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<LinearLayout android:id="@+layout/contact_listrow_layout"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_gravity="center_horizontal"
+		android:gravity="center_horizontal">
+		<RelativeLayout android:id="@+layout/contact_listrow_layout"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:gravity="center_vertical"
+			android:layout_gravity="center_vertical">
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_centerInParent="true" android:layout_marginLeft="10dip"
+				android:layout_alignParentLeft="true" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/contact_listrow_name"
+				android:textStyle="bold" android:textSize="15sp" android:textColor="@color/white" />
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/contact_checkBox1"
+				android:focusable="false" android:clickable="false"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"></CheckBox>
+		</RelativeLayout>
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.linkedcontact" android:versionCode="9"
+	android:versionName="1.13" android:debuggable="true">
+	<uses-sdk android:minSdkVersion="7" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".TitlePageActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter><intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter><intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter><intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Form1Activity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".MyCardActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".MyCardsListActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".SignupActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".LoginActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".MyContactsListActivity"
+			android:label="@string/app_name" android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".NewContactsListActivity"
+			android:label="@string/app_name" android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".ContactActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".ContactPicker" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".NewContactActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+		<activity android:name=".BluetoothListActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+		</activity>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-feature android:name="android.permission.BLUETOOTH"
+		android:required="false" />
+		<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-feature android:name="android.permission.BLUETOOTH_ADMIN"
+		android:required="false" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-feature android:name="android.permission.CALL_PHONE"
+		android:required="false" />
+	<uses-permission android:name="android.permission.WRITE_CONTACTS" />
+	<uses-feature android:name="android.permission.WRITE_CONTACTS"
+		android:required="false" />
+	<uses-feature android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+		android:required="false" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-feature android:name="android.permission.READ_CONTACTS"
+		android:required="false" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-feature android:name="android.permission.SEND_SMS"
+		android:required="false" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-feature android:name="android.permission.READ_PHONE_STATE"
+		android:required="false" />
+	<supports-screens android:anyDensity="true" />
+	<uses-feature android:name="android.hardware.telephony"
+		android:required="false" />
+</manifest>

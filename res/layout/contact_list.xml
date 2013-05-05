@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/button_layout"
+		android:background="#00FFFFFF" android:theme="@android:style/Theme.Translucent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal|center_vertical"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:weightSum="2" android:layout_alignParentBottom="true">
+
+		<Button android:layout_marginRight="1dip"
+			android:layout_gravity="center_vertical|center_horizontal|center"
+			android:layout_weight="1" android:textStyle="bold" android:textSize="18sp"
+			android:textColor="#FFFFFFFF" android:id="@+id/clear_Button"
+			android:layout_height="40dip" android:text="@string/form_clearFields_label"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_width="wrap_content"></Button>
+		<Button android:layout_gravity="center_vertical|center_horizontal|center"
+			android:textColor="#FFFFFFFF" android:id="@+id/done_Button"
+			android:textStyle="bold" android:textSize="18sp"
+			android:layout_weight="1" android:layout_height="40dip" android:text="Done"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_width="wrap_content"></Button>
+	</LinearLayout>
+	<ListView android:id="@+id/contact_listview" android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_above="@id/button_layout"
+		android:cacheColorHint="#00000000" android:clickable="true"
+		android:focusable="true" android:divider="@drawable/list_divider"
+		android:dividerHeight="1dip" android:layout_height="fill_parent" />
+
+</RelativeLayout>

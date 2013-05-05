@@ -1,0 +1,51 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.linkedcontact.BluetoothListActivity:
+    private static final java.lang.String TAG
+    private static final int REQUEST_ENABLE_BT
+    private static final boolean D
+com.linkedcontact.BluetoothService:
+    private static final java.lang.String TAG
+    private static final boolean D
+    private static final java.lang.String NAME
+    public static final int STATE_NONE
+    public static final int STATE_LISTEN
+    public static final int STATE_CONNECTING
+    public static final int STATE_CONNECTED
+    218:232:public synchronized void stop()
+    245:252:public void write(byte[])
+com.linkedcontact.BluetoothService$ConnectedThread:
+    507:515:public void write(byte[])
+com.linkedcontact.BuildConfig
+com.linkedcontact.ChatGridAction$MessageObject
+com.linkedcontact.InsecureBluetooth
+com.linkedcontact.InsecureBluetooth$InUse
+com.linkedcontact.MyContactsListActivity$FetchContact:
+    public static final java.lang.String FETCH_CONTACT
+com.linkedcontact.NewContactActivity:
+    private android.widget.Button update
+    public static final int SEND_CODE
+    private android.widget.Spinner categorySpinner
+    private android.widget.Button save
+    private android.widget.LinearLayout updateLayout
+    public static final java.lang.String FETCH_CONTACT
+com.linkedcontact.NewContactsListActivity:
+    private android.app.ProgressDialog mProgressDialog
+    public static final java.lang.String FETCH_CONTACTS
+com.linkedcontact.R
+com.linkedcontact.R$anim
+com.linkedcontact.R$array
+com.linkedcontact.R$attr
+com.linkedcontact.R$color
+com.linkedcontact.R$drawable
+com.linkedcontact.R$id
+com.linkedcontact.R$layout
+com.linkedcontact.R$plurals
+com.linkedcontact.R$string
+com.linkedcontact.R$style
+com.linkedcontact.RecoverCardsTask
+com.linkedcontact.SingleMediaScanner:
+    35:36:public void setCallBack()
+    39:40:public com.linkedcontact.SingleMediaScanner setMimeType(java.lang.String)
+    44:47:public void setValues(java.lang.String,android.net.Uri,java.lang.String)
+    50:52:public void setLength(java.lang.String,long)

@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="hello">Hello World, ffmList!</string>
+	<string name="app_name">NameCard</string>
+	<string name="user_label">FunForMobile</string>
+	<string name="upload">Upload</string>
+
+	<!-- NameCard form creation -->
+	<string name="form_image_label">Image</string>
+	<string name="form_save_label">Save</string>
+	<string name="form_clearFields_label">Clear</string>
+	<string name="form_bgcolor_label">Background color:</string>
+	<string name="form_textcolor_label">Text color:</string>
+	<string name="form_textfont_label">Choose a text font:</string>
+
+	<string name="bgcolor_prompt">Choose a background color</string>
+	<string name="textcolor_prompt">Choose a text color</string>
+	<string-array name="color_array">
+		<item>White</item>
+		<item>Red</item>
+		<item>Gray</item>
+		<item>Yellow</item>
+		<item>Green</item>
+		<item>Blue</item>
+		<item>Magenta</item>
+		<item>Black</item>
+		<item>Cyan</item>
+	</string-array>
+
+	<string name="form_category_label">Choose a category</string>
+	<string-array name="category_array">
+		<item>Unassigned</item>
+		<item>Business</item>
+		<item>Church</item>
+		<item>College</item>
+		<item>Community</item>
+		<item>Co-workers</item>
+		<item>Family</item>
+		<item>Friends</item>
+		<item>High School</item>
+		<item>Personal</item>
+		<item>Relatives</item>
+	</string-array>
+
+	<string-array name="category_array1">
+		<item>All</item>
+		<item>Business</item>
+		<item>Church</item>
+		<item>College</item>
+		<item>Community</item>
+		<item>Co-workers</item>
+		<item>Family</item>
+		<item>Friends</item>
+		<item>High School</item>
+		<item>Personal</item>
+		<item>Relatives</item>
+	</string-array>
+
+	<string-array name="contacts_longclick_array">
+		<item>View Contact</item>
+		<item>Delete Contact</item>
+		<item>Save to Phone Contacts</item>
+	</string-array>
+	
+	<string-array name="share_array">
+		<item>SMS</item>
+		<item>Email</item>
+		<item>Bluetooth</item>
+	</string-array>
+	
+	<string-array name="contact_more_array">
+		<item>Change Category</item>
+		<item>Delete Contact</item>
+		<item>Save to Phone Contacts</item>
+		<item>Export as VCF</item>
+	</string-array>
+
+	<string name="textfont_prompt">Choose a text font</string>
+	<string-array name="textfont_array">
+		<item>Droid Sans</item>
+		<item>Droid Mono</item>
+		<item>Droid Serif</item>
+	</string-array>
+
+	<!-- End NameCard form creation -->
+
+	<!-- NameCard title page -->
+	<string name="title_NameCard_label">NameCard</string>
+	<string name="title_createnewcard_label">Create New Card</string>
+	<string name="title_mycards_label">My Cards</string>
+	<string name="title_contacts_label">Contacts</string>
+	<string name="title_newcontacts_label">New Contacts</string>
+	<string name="title_recovercards_label">Recover My Cards</string>
+	<string name="title_login_label">Login</string>
+	<!-- End NameCard title page -->
+
+	<!-- MyCard View -->
+	<string name="mycard_edit_label">Edit</string>
+	<string name="mycard_delete_label">Delete</string>
+	<string name="mycard_send_label">Send</string>
+	<string name="mycard_category_label">Category</string>
+	<!-- End MyCard View -->
+
+	<!-- Edit Card View -->
+	<string name="form_update_label">Update</string>
+	<!-- End Edit Card View -->
+
+	<!-- Login -->
+	<string name="login_phone_num_label">Phone Number</string>
+	<!-- End Login -->
+
+	<!-- Upload dialog -->
+
+	<string name="upload_dlg_title">Upload</string>
+	<string name="upload_dlg_title_pix">Upload Photo</string>
+	<string name="upload_dlg_title_video">Upload Video</string>
+	<string name="upload_dlg_title_tone">Upload Ringtone</string>
+	<string name="upload_name_label">Title:</string>
+	<string name="upload_button_go">Upload</string>
+	<string name="upload_button_cancel">Cancel</string>
+
+	<string name="upload_type_label">Type:</string>
+
+	<string name="upload_category_label">Category:</string>
+
+	<string name="what_to_do_with_ringtone">Make this your default ringtone or assign it to a
+		contact?</string>
+
+
+	<string name="make_default_ringtone_button">Make Default</string>
+	<string name="choose_contact_ringtone_button">Assign to Contact</string>
+	<string name="do_nothing_with_ringtone_button">Close</string>
+
+	<string name="default_ringtone_success_message">Changed default ringtone</string>
+	<string name="choose_contact_title">Assign ringtone to which contact?</string>
+	<string name="success_contact_ringtone">Successfully assigned ringtone to:</string>
+	<string name="alert_title_success">Saved</string>
+	<string name="sms_title">Share By SMS</string>
+	<string name="choose_mobile_title">Share By SMS</string>
+	<string name="mobile_number_label">Enter a number to share</string>
+	<string name="pick_mobile_button">Pick From Contacts</string>
+	<string name="shut_button">Take Picture</string>
+
+	<!--ManageTones -->
+	<string name="context_menu_play">Play</string>
+	<string name="context_menu_default">Set As Default</string>
+	<string name="context_menu_pick">Pick</string>
+	<string name="context_menu_contact">Set For Contact</string>
+	<string name="context_menu_upload">Upload</string>
+	<string name="context_menu_delete">Delete</string>
+	<string name="confirm_delete_ringtone">Are you sure?</string>
+	<string name="context_menu_close">Close</string>
+
+	<string name="delete_ringtone">Delete Ringtone</string>
+	<string name="delete_alarm">Delete Alarm</string>
+	<string name="delete_notification">Delete Notification</string>
+	<string name="delete_music">Delete Music</string>
+	<string name="delete_audio">Delete Audio</string>
+	<string name="delete_ok_button">Delete</string>
+	<string name="delete_cancel_button">Cancel</string>
+
+	<string name="share_ok_button">Share</string>
+	<string name="share_cancel_button">Not now</string>
+
+	<string name="delete_failed">Unable to delete file</string>
+	<!-- Success and error messages -->
+
+
+	<string name="alert_title_failure">Error</string>
+	<string name="alert_ok_button">OK</string>
+	<string name="alert_yes_button">Yes, please!</string>
+	<string name="alert_no_button">No, thanks.</string>
+
+	<string name="login_email_label">Email</string>
+	<string name="login_password_label">Password</string>
+	<string name="login_button_cancel">Cancel</string>
+	<string name="signup_free_label">Sign Up Free</string>
+	<string name="login_button_go">Go</string>
+
+	<!-- Sign Up -->
+	<string name="signup_email_label">Email</string>
+	<string name="signup_password_label">Password</string>
+	<string name="signup_phone_number">Phone Number (Login ID)</string>
+	<string name="signup_username_label">Screen Name (Min 4 chars)</string>
+	<string name="signup_privacy_label">By submitting this form,you confirm you are 13
+		years
+		of age or older and agree to the NameCard Terms of Service and
+		Privacy
+		Policy. NameCard will not sell or share your email address.
+		Personal information will be kept private and confidential.</string>
+	<string name="signup_submit_go">Submit</string>
+	<!-- Sign Up -->
+	<!-- application name and title of error dialogs -->
+
+	<!-- Label for the "Me" number of this phone. -->
+	<string name="me">Me</string>
+
+	<string name="new_message">New message</string>
+	<!-- Summary text under "New Message" command; displays in conversation 
+		list -->
+	<string name="create_new_message">Compose new message</string>
+
+	<string name="messaging_label">Messaging</string>
+
+	<!-- Context menu item on a message recipient for viewing their contact 
+		info -->
+	<string name="menu_view_contact">View contact</string>
+	<!-- Context menu item on a message recipient for adding them to the user's 
+		contacts (used if the recipient is not already in the address book) -->
+	<string name="menu_add_to_contacts">Add to Contacts</string>
+	<string name="menu_go_home">Home</string>
+	<string name="menu_delete_messages">Delete messages</string>
+
+	<string name="confirm_delete_all_conversations">All threads will be deleted.</string>
+
+	<string name="confirm_delete_conversation">The entire thread will be deleted.</string>
+
+	<string name="confirm_dialog_title">Delete</string>
+
+	<string name="delete">Delete</string>
+
+	<string name="no">Cancel</string>
+
+	<string name="has_draft">Draft</string>
+	<string name="delete_unlocked">Delete locked messages</string>
+	<string name="menu_delete">Delete thread</string>
+	<string name="menu_view">View thread</string>
+	<string name="menu_preferences">Settings</string>
+	<string name="menu_delete_all">Delete threads</string>
+	<string name="menu_compose_new">Compose</string>
+	<string name="refreshing">Refreshing\u2026</string>
+	<string name="no_subject_view">(No subject)</string>
+	<string name="hidden_sender_address">Hidden sender address</string>
+	<string name="message_download_failed_title">Message not downloaded</string>
+	<!-- Dialog box title when sending a message failed. -->
+	<string name="message_send_failed_title">Message not sent</string>
+	<!-- Dialog box message text when failure occurs sending a message. -->
+	<string name="message_failed_body">Select to review the message and try again.</string>
+	<string translatable="false" name="prefDefault_vibrateWhen">never</string>
+	<!-- The value to use when migrating from old versions for a true vibrate 
+		setting -->
+	<string translatable="false" name="prefDefault_vibrate_true">always</string>
+	<!-- The value to use when migrating from old versions for a false vibrate 
+		setting -->
+	<string translatable="false" name="prefDefault_vibrate_false">never</string>
+	<string name="delivery_toast_body">Message received by %s</string>
+	<string name="notification_multiple">
+		<xliff:g id="count">%s</xliff:g>
+		unread messages.
+	</string>
+	<string name="notification_multiple_title">New messages</string>
+	<string name="notification_failed_multiple">
+		<xliff:g id="count">%s</xliff:g>
+		messages could not be sent.
+	</string>
+	<!-- Failed to send/download Notification dialog title. -->
+	<string name="notification_failed_multiple_title">Messages not sent</string>
+
+	<!-- Title of Settings screen -->
+	<string name="preferences_title">"Settings"</string>
+	<!-- Settings screen menu item for restoring all settings to default -->
+	<string name="restore_default">"Restore default settings"</string>
+
+	<!-- Settings screen, section heading for notifications -->
+	<string name="pref_popup_settings_title">Pop up settings</string>
+	<string name="pref_notification_settings_title">Notification settings</string>
+	<!-- Settings screen, section heading for MMS-specific settings -->
+	<string name="pref_mms_settings_title">"Multimedia message (MMS) settings"</string>
+	<!-- Settings screen, section heading for SMS-specific settings -->
+	<string name="pref_sms_settings_title">"Text message (SMS) settings"</string>
+	<!-- Settings screen, section heading for storage-specific settings -->
+	<string name="pref_sms_storage_title">Storage settings</string>
+
+	<!-- Settings item description for entering SIM card message screen -->
+	<string name="pref_summary_manage_sim_messages">Manage messages stored on your SIM card</string>
+	<!-- Settings item description for boolean MMS delivery report setting -->
+	<string name="pref_summary_mms_delivery_reports">Request a delivery report for each message you send</string>
+	<!-- Settings item description for boolean MMS read report setting -->
+	<string name="pref_summary_mms_read_reports">Request a read report for each message you send</string>
+	<!-- Settings item description for boolean SMS delivery report setting -->
+	<string name="pref_summary_sms_delivery_reports">Request a delivery report for each message you send</string>
+	<!-- Settings item description for boolean auto-delete messages setting -->
+	<string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
+	<!-- Settings item description for integer auto-delete sms message limit -->
+
+	<!-- Settings item for entering SIM card message screen -->
+	<string name="pref_title_manage_sim_messages">Manage SIM card messages</string>
+	<!-- Settings item for boolean option to enable/disable MMS delivery reports -->
+	<string name="pref_title_mms_delivery_reports">Delivery reports</string>
+	<!-- Settings item for boolean option to enable/disable MMS read reports -->
+	<string name="pref_title_mms_read_reports">Read reports</string>
+	<!-- Settings item for boolean option to enable/disable SMS delivery reports -->
+	<string name="pref_title_sms_delivery_reports">Delivery reports</string>
+	<!-- Settings item for boolean option to enable/disable auto-deletion of 
+		messages -->
+	<string name="pref_title_auto_delete">Delete old messages</string>
+	<!-- Settings item for integer option to set SMS delete limit -->
+	<string name="pref_title_sms_delete">Text message limit</string>
+	<!-- Settings item for integer option to set MMS delete limit -->
+	<string name="pref_title_mms_delete">Multimedia message limit</string>
+	<!-- Settings item for boolean option to display message notifications -->
+	<string name="pref_title_popup_enabled">Pop ups (all contacts) </string>
+	<!-- Settings item description for boolean message notification option -->
+	<string name="pref_summary_popup_enabled">Show pop ups for all contacts </string>
+	<!-- Settings item for boolean option to vibrate during message notification -->
+	<!-- Settings item for boolean option to display message notifications -->
+	<string name="pref_title_notification_enabled">Notifications</string>
+	<!-- Settings item description for boolean message notification option -->
+	<string name="pref_summary_notification_enabled">Display message notifications in status bar</string>
+	<!-- Settings item for boolean option to vibrate during message notification -->
+	<string name="pref_title_notification_vibrateWhen">Vibrate</string>
+	<!-- Settings item description for boolean vibrate option -->
+	<string name="pref_summary_notification_vibrateWhen">Also vibrate when notified</string>
+	<!-- Settings item for entering ringtone selection screen -->
+	<string name="pref_title_notification_ringtone">Select ringtone</string>
+	<!-- Settings item for setting the number of message to save for each conversation -->
+	<string name="pref_messages_to_save">Set number of messages to save</string>
+
+	<string name="prefDialogTitle_vibrateWhen">Vibrate</string>
+	<!-- Settings item for boolean option to auto-retrieve incoming MMS messages -->
+	<string name="pref_title_mms_auto_retrieval">Auto-retrieve</string>
+	<!-- Settings item description for boolean MMS auto-retrieve option -->
+	<string name="pref_summary_mms_auto_retrieval">Automatically retrieve messages</string>
+	<!-- Settings item for boolean option to auto-retrieve incoming MMS messages 
+		while roaming -->
+	<string name="pref_title_mms_retrieval_during_roaming">Roaming auto-retrieve</string>
+	<!-- Settings item description for boolean MMS auto-retrieve while roaming 
+		option -->
+	<string name="pref_summary_mms_retrieval_during_roaming">Automatically retrieve messages while roaming</string>
+
+	<!-- The vibrate notification modes -->
+	<string-array name="prefEntries_vibrateWhen">
+		<!-- Always -->
+		<item>Always</item>
+		<!-- Only when the phone is in Silent mode -->
+		<item>Only when silent</item>
+		<!-- Never -->
+		<item>Never</item>
+	</string-array>
+
+	<!-- The vibrateWhen values -->
+	<string-array translatable="false" name="prefValues_vibrateWhen">
+		<item>always</item>
+		<item>silent</item>
+		<item>never</item>
+	</string-array>
+
+	<string name="pref_summary_delete_limit">
+		<xliff:g id="count">%1$s</xliff:g>
+		messages per conversation
+	</string>
+	<string name="set">Set</string>
+	<string name="confirm">Confirm</string>
+	<string name="message_send_read_report">A read report will be sent.</string>
+	<string name="yes">OK</string>
+	<string name="dl_expired_notification">This message has expired and will be deleted.</string>
+	<string name="no_subject">(No subject)</string>
+	<string name="unknown_sender">Unknown sender</string>
+	<!-- When an error occurs downloading a new message, display this message. 
+		An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+	<string name="dl_failure_notification">
+		Download of message
+		<xliff:g id="subject">%1$s</xliff:g>
+		from
+		<xliff:g id="from">%2$s</xliff:g>
+		was unsuccessful.
+	</string>
+
+	<string name="insufficient_drm_rights">Insufficient DRM rights detected.</string>
+	<string name="cannot_forward_drm_obj">The DRM object included in the message cannot be
+		forwarded.</string>
+
+	<string name="messagelist_sender_self">Me</string>
+	<string name="sent_on">
+		"Sent:
+		<xliff:g id="date">%s</xliff:g>
+		"
+	</string>
+	<string name="drm_protected_text">"* DRM protected text *"</string>
+	<string name="expire_on">
+		"Expires:
+		<xliff:g id="date">%s</xliff:g>
+		"
+	</string>
+	<string name="download">Download</string>
+	<!-- Message displayed in place of the "download message" button once it 
+		has been pressed, indicating that the download is in progress -->
+	<string name="downloading">Downloading</string>
+
+	<string name="cannot_get_details">Cannot get details</string>
+	<!-- Title of "Message details" dialog -->
+	<string name="message_details_title">Message details</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="message_type_label">Type:\u0020</string>
+	<!-- "Type" value in "Message details" dialog -->
+	<string name="text_message">Text message</string>
+	<!-- "Type" value in "Message details" dialog -->
+	<string name="multimedia_message">Multimedia message</string>
+	<!-- "Type" value in "Message details" dialog -->
+	<string name="multimedia_notification">Multimedia message notification</string>
+	<!-- Label in "Message details" dialog showing who sent the message. -->
+	<string name="from_label">From:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="to_address_label">To:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="bcc_label">Bcc:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="sent_label">Sent:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="received_label">Received:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="saved_label">Saved:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="subject_label">Subject:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="message_size_label">Message size:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="priority_label">Priority:\u0020</string>
+	<!-- "Priority" value in "Message details" dialog -->
+	<string name="priority_high">High</string>
+	<!-- "Priority" value in "Message details" dialog -->
+	<string name="priority_normal">Normal</string>
+	<!-- "Priority" value in "Message details" dialog -->
+	<string name="priority_low">Low</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="message_class_label">Message class:\u0020</string>
+	<!-- Label in "Message details" dialog -->
+	<string name="error_code_label">Error code:\u0020</string>
+
+	<string name="kilobyte">KB</string>
+
+	<string name="select_audio">Select audio</string>
+
+	<string name="compressing">Picture too large. Compressing\u2026</string>
+
+	<string name="discard_message">Discard</string>
+	<!-- Dialog message text explaining that a draft message will not be saved 
+		due to invalid recipients -->
+	<string name="discard_message_reason">Your message will be discarded because it has no
+		valid recipients.</string>
+	<string name="converting_to_picture_message">Converting to multimedia message\u2026</string>
+	<string name="converting_to_text_message">Converting to text message\u2026</string>
+	<string name="menu_call_back">
+		Call
+		<xliff:g id="name">%s</xliff:g>
+	</string>
+	<!-- Context menu item on an individual message for emailing the sender -->
+	<string name="menu_send_email">
+		Send email to
+		<xliff:g id="name">%s</xliff:g>
+	</string>
+	<string name="menu_add_address_to_contacts">
+		Add
+		<xliff:g id="name">%s</xliff:g>
+		to Contacts
+	</string>
+	<string name="message_options">Message options</string>
+	<string name="menu_lock">Lock message</string>
+	<!-- Menu title for unlocking a message -->
+	<string name="menu_unlock">Unlock message</string>
+	<string name="menu_edit">Edit</string>
+	<string name="copy_to_sdcard">Save attachment</string>
+	<string name="view_slideshow">View slideshow</string>
+	<string name="menu_forward">Forward</string>
+	<string name="copy_message_text">Copy message text</string>
+	<string name="view_message_details">View message details</string>
+	<!-- Context menu item on an individual message for viewing a delivery report -->
+	<string name="view_delivery_report">View report</string>
+	<string name="delete_message">Delete message</string>
+	<string name="forward_prefix">Fwd:\u0020</string>
+	<string name="cannot_save_message">Cannot save message.</string>
+	<string name="copy_to_sdcard_success">Attachment saved</string>
+	<!-- Toast message on failed copy to shared storage [CHAR LIMIT=30] -->
+	<string name="copy_to_sdcard_fail">Unable to save attachment</string>
+	<string name="save_ringtone">Save as ringtone</string>
+	<!-- Toast message on successful copying ringtone to drm provider -->
+	<string name="saved_ringtone">Ringtone saved</string>
+	<string name="menu_call">Call</string>
+	<!-- Toast message on failed copying ringtone to drm provider -->
+	<string name="saved_ringtone_fail">Saving ringtone failed</string>
+	<string name="delete_thread">Delete thread</string>
+	<string name="all_threads">InBox</string>
+	<string name="confirm_dialog_locked_title">Delete locked message?</string>
+	<string name="confirm_delete_message">The message will be deleted.</string>
+	<!-- Delete message confirmation dialog message for a locked message -->
+	<string name="confirm_delete_locked_message">Are you sure you want to delete this locked
+		message?</string>
+	<string name="name_colon">
+		<b>
+			<xliff:g id="name" example="Me">%s</xliff:g>
+		</b>
+		": "
+	</string>
+	<!-- Formatting for subject displayed inline, prepended to MMS message text -->
+	<string name="inline_subject">"&lt;Subject:
+		<xliff:g id="subject">%s</xliff:g>
+		&gt;"
+	</string>
+	<string name="sending_message">Sending\u2026</string>
+	<string name="select_link_title">Select action</string>
+	<!-- Button next to an attachment during message composition to view the 
+		attachment (imperative verb) -->
+	<string name="view">View</string>
+	<!-- Button next to an attachment during message composition to replace 
+		the attachment (imperative verb) -->
+	<string name="replace">Replace</string>
+	<!-- Button next to an attachment during message composition to remove the 
+		attachment (imperative verb) -->
+	<string name="remove">Remove</string>
+
+
+	<!-- App Strings -->
+
+	<string name="new_text_at">New message at %s</string>
+	<string name="unread_text_waiting">%d other unread message(s)</string>
+	<string name="mms_subject">Subject:</string>
+
+	<!-- Notification Strings -->
+
+	<string name="notification_multiple_text">%d unread messages.</string>
+	<string name="notification_scroll" formatted="false">%s: %s</string>
+	<string name="notification_scroll_privacy">New message from: %s</string>
+	<string name="notification_scroll_privacy_no_name">New message</string>
+
+	<!-- Button Strings -->
+	<string name="button_close">Close</string>
+	<string name="button_reply">Reply</string>
+	<string name="button_inbox">Inbox</string>
+	<string name="button_view">View</string>
+	<string name="button_view_mms">View MMS</string>
+	<string name="button_delete">Delete</string>
+	<string name="button_next">Next</string>
+	<string name="button_previous">Previous</string>
+	<string name="button_unlock">Unlock</string>
+	<string name="button_tts">Text-to-speech</string>
+
+	<string name="button_speak">Speak</string>
+	<string name="button_delete_noconfirm">Delete (no confirmation)</string>
+	<string name="button_quickreply">Quick Reply</string>
+	<string name="button_disabled">Disabled</string>
+
+	<!-- Main Preferences -->
+	<string name="pref_config_title">SMS Popup Configuration</string>
+	<string name="pref_other_title">Other</string>
+
+	<string name="pref_enabled_title">Enable SMS Popup</string>
+	<string name="pref_enabled_summary">SMS Popup is enabled</string>
+
+
+	<string name="pref_about_title">About</string>
+	<string name="pref_about_summary">About SMS Popup</string>
+	<string name="pref_about_text">Created by: Adam K\nEmail:
+		adam@everythingandroid.net\nBlog:
+		http://www.everythingandroid.net\n\nSMS Popup is a simple application
+		that shows a dialog when an SMS is received - turning on the screen
+		and unlocking the keyguard if needed. It shows the most recent
+		message, who it\'s from and the contact picture if available.\n\nFeel
+		free to email me any comments, suggestions or bugs.\n\nGerman
+		translation by: Feyyaz A.\nEmail: f_alingan@hotmail.com\nWebsite:
+		http://www.yenio.com\n\nDutch translation by:
+		mellie@xs4all.nl\n\nSpanish translation by: Diego Fernández\nEmail:
+		profediego@gmail.com\n\nRussian translation by: Artem
+		Kavalerov\nEmail: artem.kavalerov@gmail.com\n\nCredits to Min Tran for
+		the app icon.\n(http://min.frexy.com)\n</string>
+
+	<string name="pref_faq_title">FAQ</string>
+	<string name="pref_faq_summary">Frequently Asked Questions</string>
+	<string name="pref_faq_url">http://code.google.com/p/android-smspopup/wiki/FAQ</string>
+
+	<string name="pref_releasenotes_title">What\'s New?</string>
+	<string name="pref_releasenotes_summary">See what\'s new in this version</string>
+	<string name="pref_releasenotes_text">\nhttp://code.google.com/p/android-smspopup/wiki/ReleaseNotes</string>
+
+	<string name="pref_sendemail_title">E-mail the Developer</string>
+	<string name="pref_sendemail_summary">E-mail comments or bugs to the developer</string>
+	<string name="pref_sendemail_dialog">Can I include your system information in the e-mail
+		(this will help me troubleshoot bugs easier)?</string>
+	<string name="pref_sendemail_buttonok">Sure</string>
+	<string name="pref_sendemail_buttoncancel">No way</string>
+
+	<!-- Additional Preferences -->
+	<string name="pref_additional_title">Additional Settings</string>
+	<string name="pref_additional_summary">Additional SMS Popup configuration</string>
+
+	<string name="pref_timeout_title">Screen Timeout</string>
+	<string name="pref_timeout_summary">The screen will sleep after this time</string>
+
+	<string name="pref_dimscreen_title">Dim Popup Screen</string>
+	<string name="pref_dimscreen_summaryon">Popup screen will be dim (saves battery)</string>
+	<string name="pref_dimscreen_summaryoff">Popup screen will be bright</string>
+
+	<string name="pref_privacy_category">Privacy</string>
+
+	<string name="pref_privacy_title">Privacy Mode</string>
+	<string name="pref_privacy_summaryon">Popup will use privacy mode </string>
+	<string name="pref_privacy_summaryoff">Popup will show all message details</string>
+
+	<string name="pref_privacy_sender_title">Hide Contact Name</string>
+	<string name="pref_privacy_sender_summaryon">Message sender name will also be hidden</string>
+	<string name="pref_privacy_sender_summaryoff">Message sender name will be shown</string>
+
+	<string name="pref_privacy_always_title">Always Use Privacy Mode</string>
+	<string name="pref_privacy_always_summaryon">Privacy mode will always be used</string>
+	<string name="pref_privacy_always_summaryoff">Only use privacy mode when screen is locked</string>
+
+	<string name="pref_markread_title">Mark Read</string>
+	<string name="pref_markread_summaryon">Messages will be marked as read when clicking
+		\"Close\"</string>
+	<string name="pref_markread_summaryoff">Messages will not be marked as read when clicking
+		\"Close\"</string>
+
+	<string name="pref_onlyShowOnKeyguard_title">Restrict Popup</string>
+	<string name="pref_onlyShowOnKeyguard_summaryon">Popup window will only show when keyguard is
+		engaged</string>
+	<string name="pref_onlyShowOnKeyguard_summaryoff">Popup will always show</string>
+
+	<string name="pref_require_unlock_title">Require Screen Unlock</string>
+	<string name="pref_require_unlock_summaryon">Buttons will be hidden till screen is unlocked</string>
+	<string name="pref_require_unlock_summaryoff">Buttons will show immediately</string>
+
+	<string name="pref_inbox_app_title">Choose Inbox App</string>
+	<string name="pref_inbox_app_summary">Choose the application that is launched for
+		multiple messages</string>
+	<string name="pref_inbox_app_info">Note that the "Reply" messaging application is set
+		by the system</string>
+
+	<string name="pref_show_buttons_title">Show Buttons On Popup</string>
+	<string name="pref_show_buttons_summaryon">Buttons on popup are visible</string>
+	<string name="pref_show_buttons_summaryoff">Buttons are hidden in long press menu</string>
+
+	<string name="pref_show_delete_button_title">Show a Delete Button</string>
+	<string name="pref_show_delete_button_summaryon">Delete button is enabled</string>
+	<string name="pref_show_delete_button_summaryoff">Delete button is disabled</string>
+	<string name="pref_show_delete_button_dialog_title">Delete Message</string>
+	<string name="pref_show_delete_button_dialog_text">Are you sure?</string>
+
+	<string name="pref_blur_title">Blur Background</string>
+	<string name="pref_blur_summaryon">The background behind the message window will be
+		blurred out</string>
+	<string name="pref_blur_summaryoff">The background behind the message window will not
+		be blurred</string>
+
+	<!-- Notification Preferences -->
+	<string name="pref_notif_title">Notifications</string>
+	<string name="pref_notif_summary">Notification configuration</string>
+
+	<!-- Category headings -->
+	<string name="pref_notif_category_title">Notification settings</string>
+	<string name="pref_vibrate_category_title">Vibrate Configuration</string>
+	<string name="pref_flashled_category_title">LED Configuration</string>
+	<string name="pref_reminder_category_title">Reminder Configuration</string>
+
+	<!-- General Notification Preferences -->
+	<string name="pref_notif_enabled_title">Notifications</string>
+	<string name="pref_notif_enabled_summary">Display message notifications in status bar</string>
+	<string name="pref_notif_enabled_warning">To avoid conflicts and multiple alerts, please
+		disable the system SMS notifications and any other apps that provide a
+		notification when a SMS is received.\n\nTo turn off the system
+		notification, go to the messaging app, hit menu -> settings and
+		un-check notifications.</string>
+
+	<string name="pref_popup_enabled_title">Show a pop up</string>
+	<string name="pref_popup_enabled_summary">Show pop up for this contact</string>
+
+	<string name="pref_notif_test_title">Test Notification</string>
+	<string name="pref_notif_test_summary">Test out your notification</string>
+	<string name="pref_notif_test_message">Testing your notification now!</string>
+
+	<string name="pref_notif_sound_title">Notification Sound</string>
+	<string name="pref_notif_sound_summary">This sound will play when a message is received</string>
+
+	<string name="pref_notifyOnCall_title">Notify On Call</string>
+	<string name="pref_notifyOnCall_summaryon">Sound will play while on a call</string>
+	<string name="pref_notifyOnCall_summaryoff">Sound will not play while on a call</string>
+
+	<string name="pref_notif_icon_title">Notification Icon</string>
+	<string name="pref_notif_icon_summary">Change the notification area icon</string>
+
+	<string name="pref_vibrate_title">Vibrate</string>
+	<string name="pref_vibrate_summaryon">Vibrate is on</string>
+	<string name="pref_vibrate_summaryoff">Vibrate is off</string>
+
+	<!-- Vibrate Preferences -->
+	<string name="pref_vibrate_pattern_title">Vibrate Pattern</string>
+	<string name="pref_vibrate_pattern_summary">Set the vibration pattern</string>
+	<string name="pref_vibrate_pattern_ok">Custom vibrate pattern set</string>
+	<string name="pref_vibrate_pattern_bad">Custom vibrate pattern invalid</string>
+	<string name="pref_vibrate_pattern_help">Enter a custom vibrate pattern, in the
+		format:\nmillisOff, millisOn, etc.\n\nFor
+		example:\n0,1000\n0,500,200,500,200,500</string>
+
+	<!-- LED Preferences -->
+	<string name="pref_flashled_title">Blink LED</string>
+	<string name="pref_flashled_summaryon">Blink LED when a message is received</string>
+	<string name="pref_flashled_summaryoff">Do not blink LED when a message is received</string>
+
+	<string name="pref_flashled_color_title">LED Color</string>
+	<string name="pref_flashled_color_summary">The color of the LED</string>
+	<string name="pref_flashled_color_custom_dialog_red">Red:</string>
+	<string name="pref_flashled_color_custom_dialog_green">Green:</string>
+	<string name="pref_flashled_color_custom_dialog_blue">Blue:</string>
+	<string name="pref_flashled_color_custom_dialog_preview">Preview:</string>
+	<string name="pref_flashled_color_custom_set">Custom LED color set</string>
+
+	<string name="pref_flashled_pattern_title">LED Blink Rate</string>
+	<string name="pref_flashled_pattern_summary">Set the speed the LED blinks</string>
+	<string name="pref_flashled_pattern_ok">Custom LED blink rate set</string>
+	<string name="pref_flashled_pattern_bad">Custom LED blink rate is invalid</string>
+	<string name="pref_flashled_pattern_help">Enter the time in milliseconds to turn the LED on
+		and off</string>
+	<string name="pref_flashled_pattern_help_on">Time on:</string>
+	<string name="pref_flashled_pattern_help_off">Time off:</string>
+
+	<!-- Notification Repeat Preferences -->
+	<string name="pref_notif_repeat_title">Enable Reminders</string>
+	<string name="pref_notif_repeat_summaryon">Unread message reminders are enabled</string>
+	<string name="pref_notif_repeat_summaryoff">Unread message reminders are disabled</string>
+
+	<string name="pref_notif_repeat_interval_title">Reminder Interval</string>
+	<string name="pref_notif_repeat_interval_summary">The time period between notification reminders</string>
+	<string name="pref_notif_repeat_interval_dialogTitle">Interval (minutes)</string>
+
+	<string name="pref_notif_repeat_times_title">Number of Reminders</string>
+	<string name="pref_notif_repeat_times_summary">The number of reminder notifications to play</string>
+
+	<string name="pref_notif_repeat_screen_on_title">Screen On for Reminders</string>
+	<string name="pref_notif_repeat_screen_on_summaryon">Reminders will turn screen on again</string>
+	<string name="pref_notif_repeat_screen_on_summaryoff">Reminders will not turn screen on</string>
+	<string name="pref_notif_repeat_screen_on_warning">Warning - turning the screen on for reminders can
+		significantly affect battery life</string>
+
+	<!-- Contact Notification Customization Strings -->
+	<string name="pref_notif_default_title">Default Notifications</string>
+	<string name="pref_notif_default_summary">Notifications for all contacts without an
+		individual customization</string>
+
+	<string name="pref_contacts_title">Pop up per contact</string>
+	<string name="pref_contacts_summary">Customize pop up for each contact </string>
+
+	<string name="pref_notif_help_title">Help - I\'m confused!</string>
+	<string name="pref_notif_help_summary">Notifications Help</string>
+	<string name="pref_notif_help_message">SMS Popup now offers the ability to customize
+		notifications on a per contact basis. When a new message comes in, SMS
+		Popup will first check if the contact has a customized notification.
+		If so, those settings are used, otherwise the default notifications
+		are used.\n\nUsing this functionality, you could set things up so only
+		a few contacts show a popup while the rest trigger a regular
+		notification. You could also ignore certain contacts by setting their
+		notification to silent.</string>
+
+	<string name="contact_customization_add">Add Custom Notifications</string>
+	<string name="contact_customization_edit">Edit Custom Notification</string>
+	<string name="contact_customization_remove">Remove Custom Notification</string>
+	<string name="contact_customization_removed_toast">Custom Notification Removed</string>
+	<string name="contact_customization_save">Save</string>
+	<string name="contact_customization_title">Notifications for %s</string>
+	<string name="contact_customization_enabled">Notifications are enabled for %s</string>
+	<string name="contact_customization_disabled">Notifications are disabled for %s</string>
+	<string name="contact_customization_add_hint">Add/Edit contact popups...</string>
+
+	<string name="ringtone_silent">Silent</string>
+
+	<!-- Preset Quick Reply Message Strings -->
+	<string name="pref_message_presets_title">Preset Texts</string>
+	<string name="pref_message_presets_summary">Configure preset texts for quick replies</string>
+
+	<string name="message_presets_add">Add Preset Text</string>
+	<string name="message_presets_edit">Edit Preset Text</string>
+
+	<string name="message_presets_add_text">Create</string>
+	<string name="message_presets_save_text">Save</string>
+	<string name="message_presets_delete_text">Remove</string>
+	<string name="message_presets_edit_text">Edit</string>
+	<string name="message_presets_reorder_text">Move to top</string>
+	<string name="message_presets_empty_text">No presets defined</string>
+
+	<string name="message_presets_add_toast">Message preset added</string>
+	<string name="message_presets_save_toast">Message preset updated</string>
+	<string name="message_presets_delete_toast">Message preset deleted</string>
+	<string name="message_presets_reorder_toast">Message preset moved to top</string>
+	<string name="message_presets_error_toast">Error - please try again</string>
+
+	<!-- Quick Reply Strings -->
+	<string name="message_counter">%d chars remaining</string>
+	<string name="message_counter_multiple" formatted="false">%d chars
+		remaining, %d messages</string>
+
+	<string name="quickreply_title">Quick Reply</string>
+	<string name="quickreply_from_text">To: %s</string>
+	<string name="quickreply_preset_button">Presets</string>
+	<string name="quickreply_send_button">Send</string>
+	<string name="quickreply_sending_toast">Sending message...</string>
+	<string name="quickreply_nomessage_toast">Send</string>
+
+	<!-- Text-To-Speech and Voice Transcription Strings -->
+	<string name="loading_message">Loading...</string>
+	<string name="error_message">Error</string>
+	<string name="error_no_voice_recognition">Voice recognition not available on this device</string>
+
+	<!-- Popup Button Configuration -->
+	<string name="pref_button_config_title">Button Configuration</string>
+	<string name="pref_button_config_summary">Popup button configuration</string>
+	<string name="pref_button_summary">Current Setting: %s</string>
+
+	<string name="pref_button1_title">Button 1 Configuration</string>
+	<string name="pref_button2_title">Button 2 Configuration</string>
+	<string name="pref_button3_title">Button 3 Configuration</string>
+
+	<!-- Donate Strings (not used right now) -->
+	<string name="pref_donate_title">Donate to SMS Popup</string>
+	<string name="pref_donate_text">SMS Popup is a free application that I work on in
+		my spare time. If you find it useful, and can spare a few bucks, a
+		donation would be much appreciated.\n\nThanks!</string>
+	<string name="pref_donate_market_button">Donate via Android Market</string>
+	<string name="pref_donate_paypal_button">Donate via PayPal</string>
+
+	<!-- Misc missing string -->
+	<string name="view_contact">View Contact</string>
+
+	<!-- Quick Reply Checkbox Preference -->
+	<string name="pref_quickreply_title">Quick Reply</string>
+	<string name="pref_quickreply_summaryon">Quick Reply is enabled</string>
+	<string name="pref_quickreply_summaryoff">Quick Reply is disabled</string>
+	<string name="pref_quickreply_bothreplybuttons">Both reply buttons are already active, to configure
+		them please go to the Button Configuration screen</string>
+	<string name="pref_quickreply_noreplybuttons">No reply buttons are currently active, to configure
+		them please go to the Button Configuration screen</string>
+
+	<!-- Misc missing string -->
+	<string name="button_replybyaddress">Reply (to phone number)</string>
+
+	<!-- Quick Reply Signature pref -->
+	<string name="pref_notif_signature_title">Quick Reply Signature</string>
+	<string name="pref_notif_signature_summary">Appears at the end of every quick reply</string>
+
+	<!-- Eula Strings -->
+	<string name="eula_title">SMS Popup License Agreement</string>
+	<string name="eula_accept">Accept</string>
+	<string name="eula_refuse">Uninstall</string>
+
+	<!-- Send message prefs -->
+	<string name="pref_delivery_report_title">Delivery Reports</string>
+	<string name="pref_delivery_report_summary">Request a delivery report for each message you send
+		via quick reply</string>
+
+	<string name="pref_split_message_title">Split Long Messages</string>
+	<string name="pref_split_message_summaryon">Long messages will be split up (only needed for
+		some CDMA carriers)</string>
+	<string name="pref_split_message_summaryoff">Long messages will not be split up (only needed for
+		some CDMA carriers)</string>
+
+	<!-- Other new prefs -->
+	<string name="pref_autorotate_title">Autorotate Always On</string>
+	<string name="pref_autorotate_summaryon">Popup will always autorotate</string>
+	<string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind
+		it</string>
+
+	<string name="pref_screen_on_title">Screen On for Popup</string>
+	<string name="pref_screen_on_summaryon">Screen will turn on when popup shows</string>
+	<string name="pref_screen_on_summaryoff">Screen will not turn on when popup shows</string>
+
+	<string name="pref_screen_category">Screen Control</string>
+
+	<!-- Other new Quick Reply prefs -->
+	<string name="quickreply_sent_toast">Message Sent</string>
+	<string name="quickreply_failed_send_later">Currently unable to send your message. It will be
+		sent when the service becomes available.</string>
+	<string name="quickreply_failed">Message failed to send</string>
+
+	<!-- Arrays texts -->
+	<string name="pref_custom">Custom</string>
+
+	<string name="pref_notif_repeat_times_entries_keep_repeting">Keep repeating</string>
+
+	<string name="pref_timeout_entries_10s">10 seconds</string>
+	<string name="pref_timeout_entries_20s">20 seconds</string>
+	<string name="pref_timeout_entries_30s">30 seconds</string>
+	<string name="pref_timeout_entries_1m">1 minute</string>
+	<string name="pref_timeout_entries_2m">2 minutes</string>
+	<string name="pref_timeout_entries_5m">5 minutes</string>
+	<string name="pref_timeout_entries_10m">10 minutes</string>
+
+	<string name="pref_vibrate_pattern_entries_normal">Normal</string>
+	<string name="pref_vibrate_pattern_entries_long">Long Vibrate</string>
+	<string name="pref_vibrate_pattern_entries_multiple_short">Multiple Short</string>
+	<string name="pref_vibrate_pattern_entries_multiple_long">Multiple Long</string>
+
+	<string name="pref_led_color_blue">Blue</string>
+	<string name="pref_led_color_green">Green</string>
+	<string name="pref_led_color_red">Red</string>
+	<string name="pref_led_color_yellow">Yellow</string>
+	<string name="pref_led_color_magenta">Magenta</string>
+	<string name="pref_led_color_cyan">Cyan</string>
+
+	<string name="pref_led_pattern_entries_fast">Fast</string>
+	<string name="pref_led_pattern_entries_normal">Normal</string>
+	<string name="pref_led_pattern_entries_slow">Slow</string>
+
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
+	<string name="attach_image">Pictures</string>
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
+	<string name="attach_take_photo">Capture picture</string>
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
+	<string name="attach_video">Videos</string>
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
+	<string name="attach_record_video">Capture video</string>
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
+	<string name="attach_sound">Audio</string>
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
+	<string name="attach_record_sound">Record audio</string>
+	<!-- Attachment Type Selector Adapter. This string is an option in the "Attach" 
+		dialog, "Add music" dialog -->
+	<string name="attach_slideshow">Slideshow</string>
+	<string name="edit">Edit</string>
+	<string name="send">Send</string>
+	<string name="subject_hint">Subject</string>
+	<string name="type_to_compose_text_enter_to_send">Type to compose</string>
+	<string name="play">Play</string>
+	<string name="to_hint">To</string>
+	<string name="has_invalid_recipient">Invalid
+		recipient(s): &lt;
+		<xliff:g id="name">%1$s</xliff:g>
+		&gt;
+	</string>
+	<string name="invalid_destination">You have entered an invalid address.</string>
+	<!-- Dialog message text when the user tries to send a message with invalid 
+		recipients -->
+	<string name="invalid_recipient_message">Please correct the recipient(s) or they will not
+		receive the message.</string>
+	<!-- Dialog box title indicating the message cannot be sent because there 
+		are no valid recipients -->
+	<string name="cannot_send_message">Cannot send this message</string>
+	<string name="try_to_send">Try to send</string>
+	<string name="cannot_send_message_reason">Your message has no valid recipients.</string>
+	<string name="too_many_recipients">
+		This message has too many recipients (
+		<xliff:g id="currentCount">%1$s</xliff:g>
+		). There is a limit of
+		<xliff:g id="maxLimit">%2$s</xliff:g>
+		recipients.
+	</string>
+	<string name="open_keyboard_to_compose_message">Open keyboard to compose message</string>
+	<string name="mms">MMS</string>
+	<string name="adding_attachments_title">Adding attachments</string>
+	<string name="adding_attachments">Please wait while the items are added to the
+		slideshow.</string>
+	<string name="too_many_unsent_mms">Can\'t send message right now. There are too many
+		unsent multimedia messages.</string>
+	<string name="type_picture">picture</string>
+	<string name="message_too_big_for_video">The message is too big to attach a video.</string>
+	<string name="message_saved_as_draft">Message saved as draft.</string>
+	<string name="add_attachment">Attach</string>
+	<string name="failed_to_add_media">
+		Sorry, you cannot add this
+		<xliff:g id="name">%1$s</xliff:g>
+		to your message.
+	</string>
+	<string name="unsupported_media_format">
+		Unsupported
+		<xliff:g id="name">%1$s</xliff:g>
+		format
+	</string>
+	<string name="select_different_media">
+		Please select a different
+		<xliff:g id="name">%1$s</xliff:g>
+		.
+	</string>
+	<string name="exceed_message_size_limitation">Message size limit reached.</string>
+	<string name="undelivered_msg_dialog_body">
+		Unable to send this message.\nAttempt made:
+		<xliff:g id="message">%s</xliff:g>
+		.
+	</string>
+	<string name="undelivered_sms_dialog_body">Unable to send this message.</string>
+	<string name="undelivered_msg_dialog_title">Undelivered message</string>
+	<string name="add_subject">Add subject</string>
+	<string name="menu_insert_smiley">Insert smiley</string>
+	<string name="too_many_attachments">
+		There is a limit of
+		<xliff:g id="maxLimit">%1$s</xliff:g>
+		attachments. Only the first
+		<xliff:g id="currentCount">%2$s</xliff:g>
+		will be added.
+	</string>
+	<string name="type_audio">audio</string>
+
+	<string name="failed_to_resize_image">Picture not resized.</string>
+	<string name="resize_image_error_information">Sorry, even when resized this picture is too large
+		to send.</string>
+
+
+	<string name="status_none">(None)</string>
+	<!-- Status in "Report" window -->
+	<string name="status_pending">Pending</string>
+	<!-- Status in "Report" window -->
+	<string name="status_read">Read</string>
+	<!-- Status in "Report" window -->
+	<string name="status_received">Received</string>
+	<!-- Status in "Report" window -->
+	<string name="status_failed">Unsuccessful</string>
+	<!-- Status in "Report" window -->
+	<string name="status_unread">Unread</string>
+	<!-- Status in "Report" window -->
+	<string name="status_rejected">Rejected</string>
+	<!-- Label in "Report" window -->
+	<string name="recipient_label">Recipient:\u0020</string>
+	<!-- Label in "Report" window -->
+	<string name="status_label">Status:\u0020</string>
+	<string name="delivery_header_title">Report</string>
+	<string name="type_to_compose_text_or_leave_blank">Type to compose text, or leave blank</string>
+	<!-- Toast when the user enters a non-numeric value for the duration of 
+		a slide -->
+	<string name="duration_not_a_number">Duration must be a number</string>
+	<!-- Toast when the user enters a zero value for the duration of a slide -->
+	<string name="duration_zero">Duration must be greater than zero seconds</string>
+	<string name="secs">secs</string>
+	<string name="preview">Preview</string>
+	<string name="replace_image">Replace picture</string>
+	<string name="remove_slide">Remove slide</string>
+	<string name="done">Done</string>
+	<string name="cannot_add_picture_and_video">Cannot add video and picture to one slide.</string>
+	<string name="slide_show_part">
+		Part
+		<xliff:g id="part">%1$s</xliff:g>
+		/
+		<xliff:g id="total">%2$s</xliff:g>
+	</string>
+	<string name="preview_slideshow">Preview</string>
+	<string name="remove_text">Remove text</string>
+	<string name="add_picture">Add picture</string>
+	<!-- Menu item in slide edit screen for removing the picture from the slide 
+		being edited -->
+	<string name="remove_picture">Remove picture</string>
+	<string name="add_music">Add music</string>
+	<!-- Menu item in slide edit screen for removing the music from the slide 
+		being edited -->
+	<string name="remove_music">Remove music</string>
+	<string name="add_video">Add video</string>
+	<!-- Menu item in slide edit screen for removing the video from the slide 
+		being edited -->
+	<string name="remove_video">Remove video</string>
+
+	<!-- Menu item in slideshow edit screen for adding a new slide to the slideshow -->
+	<string name="add_slide">Add slide</string>
+	<string name="duration_sec">
+		Duration (
+		<xliff:g id="duration">%s</xliff:g>
+		sec)
+	</string>
+	<string name="layout_top">Layout (top)</string>
+	<!-- Slide layout option for layout at the bottom -->
+	<string name="layout_bottom">Layout (bottom)</string>
+	<string name="cannot_add_slide_anymore">Cannot add more slides.</string>
+	<string name="duration_selector_title">"Duration for slide "</string>
+	<string name="layout_selector_title">"Slideshow layout "</string>
+
+	<string name="type_video">video</string>
+	<string name="select_bottom_text">Text on bottom</string>
+	<!-- Layout Selector Adapter. Slideshow layout dialog option for aligning 
+		an icon. -->
+	<string name="select_top_text">Text on top</string>
+
+	<string name="search">Messaging</string>
+	<!-- Search results title -->
+	<plurals name="search_results_title">
+		<!-- Case of 1 result. -->
+		<item quantity="one">
+			<xliff:g id="number" example="1">%1$s</xliff:g>
+			result for \"
+			<xliff:g id="search" example="???">%2$s</xliff:g>
+			\"
+		</item>
+		<!-- Case of 0 or 2 or more results. -->
+		<item quantity="other">
+			<xliff:g id="number" example="15">%1$s</xliff:g>
+			results for \"
+			<xliff:g id="search" example="???">%2$s</xliff:g>
+			\"
+		</item>
+	</plurals>
+	<string name="search_empty">No matches</string>
+	<string name="search_label">Messaging</string>
+
+	<!-- Search hint -->
+	<string name="search_hint">Search Messaging</string>
+	<string name="search_setting_description">Text in your messages</string>
+	<string name="cannot_play_audio">Cannot play audio.</string>
+	<string name="edittip">Type to reply</string>
+	<string name="send_smspopup">Send</string>
+
+	<!-- ads -->
+	<string name="ffmsearch">FFM Search</string>
+	<plurals name="ffmsearch_results_title">
+		<item quantity="one">
+			<xliff:g id="number" example="1">%1$s</xliff:g>
+			result for \"
+			<xliff:g id="search" example="???">%2$s</xliff:g>
+			\"
+		</item>
+		<item quantity="other">
+			<xliff:g id="number" example="15">%1$s</xliff:g>
+			results for \"
+			<xliff:g id="search" example="???">%2$s</xliff:g>
+			\"
+		</item>
+	</plurals>
+	<string name="ffmsearch_empty">No matches</string>
+	<string name="ffmsearch_label">FFM Search</string>
+	<string name="ffmsearch_hint">search keywords</string>
+	<string name="ffm_pixsearch_hint">picture keywords</string>
+	<string name="ffm_tonesearch_hint">rintone keywords</string>
+	<string name="ffm_videosearch_hint">video keywords</string>
+	<string name="ffmsearch_setting_description">Text in content</string>
+
+	<string name="ffm_admob_unitid">a14d8b899d2a6ad</string>
+	<!-- end ads -->
+	<string name="save">Save</string>
+	<string name="message_queued">Currently unable to send your message. It will be
+		sent when the service becomes available.</string>
+	<string name="fdn_check_failure">You can only send messages to your fixed dialing
+		numbers.</string>
+
+	<!-- Manage SIM Messages -->
+	<!-- Menu title to copy a selected message from the SIM card to the phone. -->
+	<string name="sim_copy_to_phone_memory">Copy to phone memory</string>
+	<!-- Menu title to delete a selected messaged from the SIM card. -->
+	<string name="sim_delete">Delete</string>
+	<!-- Title of screen displaying messages on SIM card -->
+	<string name="sim_manage_messages_title">Text messages on SIM card</string>
+	<!-- Context menu item but currently commented out in 1.0. -->
+	<string name="sim_view">View</string>
+	<!-- Message that appears on the "SMS messges on SIM card" screen when there 
+		are no messages on the SIM card -->
+	<string name="sim_empty">No messages on the SIM card.</string>
+
+	<string name="confirm_delete_all_SIM_messages">All messages on the SIM will be deleted.</string>
+	<!-- Delete the selected message on the SIM dialog message -->
+	<string name="confirm_delete_SIM_message">This message on the SIM will be deleted.</string>
+</resources>
+

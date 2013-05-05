@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center_horizontal"
+	android:gravity="center_horizontal">
+	<RelativeLayout android:background="#FF006699"
+		android:focusable="true" android:focusableInTouchMode="true"
+		android:id="@+id/titleTitleBar" android:orientation="horizontal"
+		android:layout_alignParentTop="true" android:layout_height="46dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:layout_width="fill_parent">
+		<TextView android:id="@+id/titleTitle" android:textColor="#fff0f0f0"
+			android:textStyle="bold" android:textSize="25dp"
+			android:layout_weight="1" android:layout_height="wrap_content"
+			android:shadowColor="#202020" android:shadowDy="2.0"
+			android:shadowDx="2.0" android:shadowRadius="2.5"
+			android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+			android:gravity="center_horizontal" android:layout_gravity="center_horizontal" />
+	</RelativeLayout>
+	<RelativeLayout android:focusable="true"
+		android:focusableInTouchMode="true" android:id="@+id/bottomTitleBar"
+		android:orientation="horizontal" android:layout_alignParentTop="true"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:id="@+id/welcomeTitle" android:textColor="#fff0f0f0"
+			android:textStyle="bold" android:textSize="15dp" android:padding="10dp"
+			android:background="#FF006699" android:layout_weight="1"
+			android:layout_height="40dp" android:layout_alignParentBottom="true"
+			android:shadowColor="#202020" android:shadowDy="2.0"
+			android:shadowDx="2.0" android:shadowRadius="2.5"
+			android:layout_alignParentLeft="true" android:layout_width="fill_parent" />
+		<ImageView android:layout_width="40dip" android:id="@+id/title_login_image"
+			android:padding="2dp" android:layout_alignParentRight="true"
+			android:layout_marginRight="10dip" android:layout_height="40dip"
+			android:layout_alignParentBottom="true" />
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/master_row" android:orientation="vertical"
+			android:weightSum="2" android:layout_width="fill_parent"
+			android:layout_above="@id/welcomeTitle" android:layout_height="fill_parent"
+			android:layout_gravity="center_horizontal|center_vertical"
+			android:gravity="center_horizontal|center_vertical">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/row_one" android:layout_weight="1"
+				android:orientation="horizontal" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+				android:gravity="center_vertical|center_horizontal">
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/row_one" android:layout_weight="1"
+					android:orientation="vertical" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+					android:gravity="center_vertical|center_horizontal">
+					<ImageView android:id="@+id/title_createnewcard"
+						android:text="@string/title_createnewcard_label" android:src="@drawable/create"
+						android:layout_marginTop="15dip" android:layout_width="wrap_content"
+						android:gravity="center_vertical|center_horizontal"
+						android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal|center" />
+					<TextView android:textColor="#FFFFFF" android:textStyle="bold"
+						android:text="Create Card" android:textSize="15dp"
+						android:layout_gravity="center_vertical|center_horizontal|center"
+						android:gravity="center_vertical|center_horizontal"
+						android:layout_height="40dp" android:layout_alignParentBottom="true"
+						android:shadowColor="#202020" android:shadowDy="2.0"
+						android:shadowDx="2.0" android:shadowRadius="2.5"
+						android:layout_alignParentLeft="true" android:layout_width="fill_parent" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/row_one" android:layout_weight="1"
+					android:orientation="vertical" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+					android:gravity="center_vertical|center_horizontal">
+					<ImageView android:id="@+id/title_viewmycards"
+						android:src="@drawable/mycards" android:layout_marginTop="15dip"
+						android:layout_width="wrap_content" android:gravity="center_vertical|center_horizontal"
+						android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal|center" />
+					<TextView android:textColor="#FFFFFF" android:textStyle="bold"
+						android:text="My Cards" android:textSize="15dp"
+						android:layout_gravity="center_vertical|center_horizontal|center"
+						android:gravity="center_vertical|center_horizontal"
+						android:layout_height="40dp" android:layout_alignParentBottom="true"
+						android:shadowColor="#202020" android:shadowDy="2.0"
+						android:shadowDx="2.0" android:shadowRadius="2.5"
+						android:layout_alignParentLeft="true" android:layout_width="fill_parent" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/row_two" android:layout_weight="1"
+				android:orientation="horizontal" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+				android:gravity="center_vertical|center_horizontal">
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/row_one" android:layout_weight="1"
+					android:orientation="vertical" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+					android:gravity="center_vertical|center_horizontal">
+					<ImageView android:id="@+id/title_contacts" android:src="@drawable/contacts"
+						android:layout_marginTop="15dip" android:layout_width="wrap_content"
+						android:gravity="center_vertical|center_horizontal"
+						android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal|center" />
+					<TextView android:textColor="#FFFFFF" android:textStyle="bold"
+						android:text="Contacts" android:textSize="15dp"
+						android:layout_gravity="center_vertical|center_horizontal|center"
+						android:gravity="center_vertical|center_horizontal"
+						android:layout_height="40dp" android:layout_alignParentBottom="true"
+						android:shadowColor="#202020" android:shadowDy="2.0"
+						android:shadowDx="2.0" android:shadowRadius="2.5"
+						android:layout_alignParentLeft="true" android:layout_width="fill_parent" />
+				</LinearLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/row_one" android:layout_weight="1"
+					android:orientation="vertical" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+					android:gravity="center_vertical|center_horizontal">
+					<FrameLayout android:layout_height="wrap_content" android:padding="7dip"
+						android:layout_width="wrap_content" android:layout_gravity="center_horizontal|center_vertical"
+						android:gravity="center_vertical|center_horizontal">
+						<ImageView android:id="@+id/title_newcontacts"
+							android:src="@drawable/newcontacts" android:layout_width="wrap_content"
+							android:gravity="center_vertical|center_horizontal"
+							android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal|center" />
+						<Button android:id="@+id/count_new" android:background="@drawable/newcontactscircle"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:visibility="gone" android:textColor="#FFFFFF"
+							android:textStyle="bold" android:layout_gravity="bottom|right"
+							android:layout_marginBottom="10dip" />
+					</FrameLayout>
+					<TextView android:textColor="#FFFFFF" android:textStyle="bold"
+						android:text="New Contacts" android:textSize="15dp"
+						android:layout_gravity="center_vertical|center_horizontal|center"
+						android:gravity="center_vertical|center_horizontal"
+						android:layout_height="40dp" android:layout_alignParentBottom="true"
+						android:shadowColor="#202020" android:shadowDy="2.0"
+						android:shadowDx="2.0" android:shadowRadius="2.5"
+						android:layout_alignParentLeft="true" android:layout_width="fill_parent" />
+				</LinearLayout>
+				<Button android:id="@+id/title_recovercards" android:text="@string/title_recovercards_label"
+					android:visibility="gone" android:layout_marginBottom="10dip"
+					android:layout_marginTop="15dip" android:layout_width="200px"
+					android:gravity="center_vertical|center_horizontal"
+					android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal|center" />
+			</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

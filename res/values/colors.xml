@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="titlebackgroundcolor">#3232CD</color>
+	<color name="titletextcolor">#FFFF00</color>
+	<color name="audio">#FFCC00</color>
+	<!-- the background color used for unread conversation -->
+	<color name="unread_bgcolor">#FFFFFFFF</color>
+	<color name="read_bgcolor">#FFEEEEEE</color>
+
+	<!-- text color -->
+	<drawable name="class_zero_background">#7f040000</drawable>
+	<drawable name="text_color">#FFFFFFFF</drawable>
+	<drawable name="text_color_red">#FFFF0000</drawable>
+	<drawable name="text_color_black">#ff000000</drawable>
+	<drawable name="text_color_offwhite">#55ffffff</drawable>
+
+	<!-- Chat "sent time" text background -->
+	<color name="timestamp_color">#bf000000</color>
+	<color name="subject_color">#2774A0</color>
+
+	<drawable name="white_background">#ffffffff</drawable>
+	<drawable name="light_blue_background">#ffecfbff</drawable>
+	<color name="smstitlebar_blue">#FF3090C8</color>
+
+	<color name="numtip_smspopup">#ff000000</color>
+	<color name="phone_time_smspopup">#ffb9c1cc</color>
+	<color name="normal_smspopup">#ffffffff</color>
+
+	<!-- max stuff -->
+
+	<color name="blank_background">#FFC0F0F0</color>
+	<color name="chat_background">#FFF8F8F8</color>
+	<color name="chatroombar_blue">#FF3090C8</color>
+	<color name="chatroom_blue">#FF3895CC</color>
+	<color name="selector_yellow">#fff0f000</color>
+	<color name="selector_green">#ff10d010</color>
+	<color name="selector_cyan">#ff80f8fe</color>
+	<color name="selector_grey">#ffe0e0e0</color>
+	<color name="transparent">#00000000</color>
+
+	<color name="mainbg_sky">#FFC0F0F0</color>
+	<color name="mainbg_aqua">#FF9DD5FD</color>
+	<color name="mainbg_lime">#FFB8F8A8</color>
+	<color name="mainbg_pine">#FF90CF88</color>
+
+	<color name="mainbg_snow">#FFFEFEFE</color>
+	<color name="mainbg_cream">#FFF8FDD0</color>
+	<color name="mainbg_gold">#FFF3EDAF</color>
+	<color name="mainbg_olive">#FFDDC88D</color>
+
+	<color name="mainbg_silver">#FFE0E0E0</color>
+	<color name="mainbg_orchid">#FFFBEAF2</color>
+	<color name="mainbg_barbie">#FFE4D6E3</color>
+	<color name="mainbg_coral">#FFF8C0B3</color>
+
+	<color name="talk_background">#FFE0EEE0</color>
+	<color name="talk_topbar">#FF3090C8</color>
+
+	<color name="royal_blue1">#306EFF</color>
+	<color name="royal_blue">#2554C7</color>
+	<color name="sky_blue">#3BB9FF</color>
+	<color name="gold">#FDD017</color>
+	<color name="dark_orange">#C35617</color>
+	<color name="light_grey">#C0C0C0</color>
+	<color name="dark_grey">#808080</color>
+	<color name="black">#000000</color>
+	<color name="red">#FF0000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="green">#00FF00</color>
+	<color name="blue">#0000FF</color>
+	<color name="orange">#FFA500</color>
+	<color name="yellow">#FFFF00</color>
+	<color name="purple">#800080</color>
+</resources> 

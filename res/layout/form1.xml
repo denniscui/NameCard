@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titleTitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="#FF006699"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/listTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="10dp"
+            android:shadowColor="#202020"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.5"
+            android:textColor="#fff0f0f0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/titleTitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:theme="@android:style/Theme.Translucent"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/createform1_clearFields"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_marginRight="1dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/form_clearFields_label"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/createform1_save"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/form_save_label"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+        </LinearLayout>
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/button_layout"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/createform1_image"
+                        android:layout_width="100dip"
+                        android:layout_height="100dip"
+                        android:layout_marginBottom="10dip"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/rounded_border"
+                        android:gravity="center_horizontal"
+                        android:src="@drawable/chooseanimage"
+                        android:text="@string/form_image_label" />
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:id="@+id/createform1_fName"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginRight="15dip"
+                            android:layout_marginTop="10dip"
+                            android:hint="First Name"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:singleLine="true" >
+                        </EditText>
+
+                        <LinearLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:orientation="horizontal" >
+
+                            <EditText
+                                android:id="@+id/createform1_lName"
+                                android:layout_width="130dip"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dip"
+                                android:hint="Last Name"
+                                android:maxLength="20"
+                                android:maxLines="1"
+                                android:singleLine="true" >
+                            </EditText>
+
+                            <EditText
+                                android:id="@+id/createform1_mInitial"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dip"
+                                android:layout_marginRight="15dip"
+                                android:hint="MI"
+                                android:inputType="textNoSuggestions"
+                                android:maxLength="1"
+                                android:maxLines="1"
+                                android:singleLine="true" >
+                            </EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/createform1_cellphonenumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Cell Phone"
+                    android:inputType="phone"
+                    android:maxLength="14"
+                    android:maxLines="1"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/createform1_homephonenumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Telephone"
+                    android:inputType="phone"
+                    android:maxLength="14"
+                    android:maxLines="1"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/createform1_faxnumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Fax"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/createform1_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Title"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/createform1_companyname"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Organization"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/createform1_note"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Note"
+                    android:maxLength="100"
+                    android:maxLines="2" />
+
+                <EditText
+                    android:id="@+id/createform1_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/createform1_address1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Address"
+                    android:maxLength="200"
+                    android:maxLines="3" />
+
+                <EditText
+                    android:id="@+id/createform1_websiteURL"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:hint="Website"
+                    android:inputType="textWebEditText"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/social_layout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/social1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="2dip"
+                        android:text="Social" />
+
+                    <EditText
+                        android:id="@+id/social_url1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:hint="URL"
+                        android:maxLength="200"
+                        android:maxLines="3" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/social_layout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <Button
+                        android:id="@+id/social2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="2dip"
+                        android:text="Social" />
+
+                    <Button
+                        android:id="@+id/minus_social2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="2dip"
+                        android:background="@drawable/minus" />
+
+                    <EditText
+                        android:id="@+id/social_url2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:layout_toLeftOf="@id/minus_social2"
+                        android:layout_toRightOf="@id/social2"
+                        android:hint="URL"
+                        android:maxLength="200"
+                        android:maxLines="3" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/social_layout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <Button
+                        android:id="@+id/social3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="2dip"
+                        android:text="Social" />
+
+                    <Button
+                        android:id="@+id/minus_social3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="2dip"
+                        android:background="@drawable/minus" />
+
+                    <EditText
+                        android:id="@+id/social_url3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:layout_toLeftOf="@id/minus_social3"
+                        android:layout_toRightOf="@id/social3"
+                        android:hint="URL"
+                        android:maxLength="200"
+                        android:maxLines="3" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/social_layout4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <Button
+                        android:id="@+id/social4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="2dip"
+                        android:text="Social" />
+
+                    <Button
+                        android:id="@+id/minus_social4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="2dip"
+                        android:background="@drawable/minus" />
+
+                    <EditText
+                        android:id="@+id/social_url4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:layout_toLeftOf="@id/minus_social4"
+                        android:layout_toRightOf="@id/social4"
+                        android:hint="URL"
+                        android:maxLength="200"
+                        android:maxLines="3" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/add_social_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dp" >
+
+                    <Button
+                        android:id="@+id/add_social"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="2dip"
+                        android:background="@drawable/plus" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginTop="2dip"
+                        android:layout_toLeftOf="@id/add_social"
+                        android:text="Add Social Network"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <Spinner
+                    android:id="@+id/spinner_choosecategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="2dip"
+                    android:prompt="@string/form_category_label" />
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:gravity="center_vertical"
+                        android:text="Text:"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinner_textfonts"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:prompt="@string/form_textfont_label" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="15dip"
+                        android:background="@drawable/rounded_border"
+                        android:gravity="center" >
+
+                        <FrameLayout
+                            android:id="@+id/textcolor_layout"
+                            android:layout_width="75dp"
+                            android:layout_height="40dip"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="2dip"
+                            android:gravity="center" >
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:text="@string/form_bgcolor_label"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="15dip"
+                        android:background="@drawable/rounded_border"
+                        android:gravity="center" >
+
+                        <FrameLayout
+                            android:id="@+id/bgcolor_layout"
+                            android:layout_width="75dp"
+                            android:layout_height="40dip"
+                            android:layout_gravity="center"
+                            android:gravity="center" >
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

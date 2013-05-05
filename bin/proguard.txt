@@ -1,0 +1,45 @@
+# view AndroidManifest.xml #generated:54
+-keep class com.linkedcontact.BluetoothListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.linkedcontact.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.linkedcontact.ContactPicker { <init>(...); }
+
+# view res/layout/chatgridoptions.xml #generated:2
+-keep class com.linkedcontact.ContainedGridView { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.linkedcontact.Form1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.linkedcontact.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.linkedcontact.MyCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.linkedcontact.MyCardsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.linkedcontact.MyContactsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.linkedcontact.NewContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.linkedcontact.NewContactsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.linkedcontact.SignupActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.linkedcontact.TitlePageActivity { <init>(...); }
+
+# view res/layout/multiple_choice_row.xml #generated:2
+-keep class com.linkedcontact.widget.CheckableRelativeLayout { <init>(...); }
+
+# view res/layout/multiple_choice_row.xml #generated:35
+-keep class com.linkedcontact.widget.ListCheckBox { <init>(...); }
+

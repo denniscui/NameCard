@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:shadowColor="#303030" android:shadowDy="2.0" android:shadowDx="2.0"
+	android:shadowRadius="2.0" android:padding="4dip" android:gravity="center"
+	android:background="@drawable/chatoptframe">
+	<LinearLayout android:id="@+id/tracks"
+		android:orientation="vertical" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:background="#24B6FF" android:layout_margin="2dip"
+		android:padding="10dip">
+	</LinearLayout>
+</LinearLayout>
